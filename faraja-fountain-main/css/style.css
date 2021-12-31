@@ -79,7 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color:#000000; }
 
 
 abbr[title],
@@ -353,6 +354,9 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
+li{
+  color: #000000;
+}
 small,
 .small {
   font-size: 80%;
@@ -6504,7 +6508,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1.6rem !important; }
 
 .ml-4,
 .mx-4 {
@@ -8251,13 +8255,13 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       content: '';
       opacity: 1;
-      background: cornflowerblue;
-      background: -moz-linear-gradient(45deg, cornflowerblue 0%, rgba(88, 145, 103, 0) 100%);
-      background: -webkit-gradient(left bottom, right top, color-stop(0%, cornflowerblue), color-stop(100%, rgba(88, 145, 103, 0)));
-      background: -webkit-linear-gradient(45deg, cornflowerblue 0%, rgba(88, 145, 103, 0) 100%);
-      background: -o-linear-gradient(45deg, cornflowerblue 0%, rgba(88, 145, 103, 0) 100%);
-      background: -ms-linear-gradient(45deg, cornflowerblue 0%, rgba(88, 145, 103, 0) 100%);
-      background: linear-gradient(45deg, cornflowerblue 0%, rgba(88, 145, 103, 0) 100%);
+      /* background: cornflowe; */
+      background: -moz-linear-gradient(45deg,  0%, rgba(88, 145, 103, 0) 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%), color-stop(100%, rgba(88, 145, 103, 0)));
+      background: -webkit-linear-gradient(45deg,0%, rgba(88, 145, 103, 0) 100%);
+      background: -o-linear-gradient(45deg,0%, rgba(88, 145, 103, 0) 100%);
+      background: -ms-linear-gradient(45deg, 0%, rgba(88, 145, 103, 0) 100%);
+      background: linear-gradient(45deg, 0%, rgba(88, 145, 103, 0) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#589167', endColorstr='#589167', GradientType=1 ); }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 400px !important; }
@@ -8266,10 +8270,10 @@ h1, h2, h3, h4, h5,
   height: 850px;
   position: relative; }
   .slider-text h1 {
-    font-size: 60px;
-    color: #000000;
+    font-size: 70px;
+    color: #ffff;
     line-height: 1.1;
-    font-weight: 500; }
+    font-weight: 900; }
     .slider-text h1 span {
       display: block; }
   .slider-text .img-video {
@@ -8298,7 +8302,7 @@ h1, h2, h3, h4, h5,
   .slider-text p {
     font-size: 18px;
     line-height: 1.5;
-    color: rgba(0, 0, 0, 0.8); }
+    color: #fff; }
   .slider-text .breadcrumbs {
     font-size: 14px;
     margin-bottom: 20px;
@@ -8874,7 +8878,8 @@ textarea.form-control {
     width: 100%;
     content: '';
     opacity: .5;
-    background: cornflowerblue; }
+    /* background: cornflowerblue; 
+  } 
   .ftco-appointment .half {
     width: 100%; }
     .ftco-appointment .half h2 {
